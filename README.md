@@ -204,7 +204,7 @@ For YouTube links every clip uses YouTube's own word-timed captions, in every la
 
 ## Find my facecam
 
-The **Find my facecam** chip (or "find it automatically when I press Make clips") looks at 14 frames of the video, finds rectangles whose border stays in the same place, and keeps the one that holds a face (small local YuNet face model, MIT licence, `models/`). It rejects the game's minimap and HUD panels, finds webcams in a corner or floating on a side, and answers "no facecam" when it is not sure. Measured on 30 real saved streams: found the webcam on every stream that has one; clean "not found" on trailers and talking-head videos. Not perfect: some boxes cover only the face inside a framed webcam.
+The **Find my facecam** chip (or "find it automatically when I press Make clips") looks at 14 frames of the video, finds rectangles whose borders stay in the same place, and keeps the one that holds a face (small local YuNet face model, MIT licence, `models/`). It rejects the game's minimap and HUD panels, finds webcams in a corner or floating on a side, and answers "no facecam" when it is not sure. Measured on 30 real saved streams: found the webcam on every stream that has one; clean "not found" on trailers and talking-head videos. Not perfect: some boxes cover only the face inside a framed webcam.
 
 ## Long streams with a free chatbot
 
