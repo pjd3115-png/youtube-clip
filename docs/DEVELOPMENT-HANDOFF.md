@@ -19,7 +19,7 @@ Source: https://www.youtube.com/watch?v=6E2cBXFCDyQ (796.9 seconds).
 - All eleven layouts and all five caption styles rendered to 1080×1920 with audio and passed full decoding.
 - Real browser import, presets, saved layout, editable English transcript, individual export, library editing and all eleven saved-edit layout choices exercised.
 - Fast mode produced four clips in 210.9 seconds. A Deep/Best-caption run produced one clip in 168.8 seconds. These separate runs use different options and are not a quality comparison or guaranteed speed.
-- Seven existing clips were updated in 119.58 seconds; exact per-clip sources, ranges and words stayed unchanged, all seven MP4s decoded.
+- Seven existing clips were updated in 119.58 seconds; exact per-clip sources, ranges and words stayed unchanged, and all seven MP4s decoded.
 - An integration check hard-failed download, transcription and moment discovery if invoked; two real saved clips still edited successfully.
 - Four portable regression tests cover per-clip transcript preservation in a batch, validation before any export, missing-source errors and bounded layout geometry.
 - GPU encoding was NVENC. This does not mean CPU filtering, source decoding or all model stages are GPU accelerated.
